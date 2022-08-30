@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\" />
+    <Content Remove="wwwroot\vendor\" />
+    <Content Remove="wwwroot\vendor\css\" />
+    <Content Remove="wwwroot\vendor\fonts\" />
+    <Content Remove="wwwroot\vendor\img\" />
+    <Content Remove="wwwroot\vendor\js\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+    <Folder Include="wwwroot\vendor\" />
+    <Folder Include="wwwroot\vendor\css\" />
+    <Folder Include="wwwroot\vendor\fonts\" />
+    <Folder Include="wwwroot\vendor\img\" />
+    <Folder Include="wwwroot\vendor\js\" />
+    <Folder Include="Views\Product\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Views\Product\" />
+  </ItemGroup>
+</Project>
