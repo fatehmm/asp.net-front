@@ -1,0 +1,37 @@
+﻿@{
+    Layout = "_AdminLayout";
+}
+@*Admin Index Page*@
+@model List<Product>
+
+<table class="product-table table table-striped p-6 w-75 ma-auto">
+    <thead>
+        <tr>
+            <th>Count</th>
+            <th>Name</th>
+            <th>New Price</th>
+            <th>Image</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{int count = 0; }
+        @foreach (var item in Model)
+            {
+            <tr>
+                <td>@{++count;}</td>
+                <td>@item.Name</td>
+                <td>@item.Price</td>
+                <td><img src ="@item.ImgURL" width="200"/></td>
+            </tr>
+         }
+    </tbody>
+</table>
+
+<style>
+    .product-table{
+        border: 1px solid gainsboro;
+        margin: 20px auto;
+        border-radius: 10px;
+    }
+</style>
+

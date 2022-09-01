@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/fatehmmmdli/Projects/aspFront/aspFront/aspFront.csproj": {}
+    "/Users/fatehmmmdli/Desktop/asp.net-front/aspFront/aspFront.csproj": {}
   },
   "projects": {
-    "/Users/fatehmmmdli/Projects/aspFront/aspFront/aspFront.csproj": {
+    "/Users/fatehmmmdli/Desktop/asp.net-front/aspFront/aspFront.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/fatehmmmdli/Projects/aspFront/aspFront/aspFront.csproj",
+        "projectUniqueName": "/Users/fatehmmmdli/Desktop/asp.net-front/aspFront/aspFront.csproj",
         "projectName": "aspFront",
-        "projectPath": "/Users/fatehmmmdli/Projects/aspFront/aspFront/aspFront.csproj",
+        "projectPath": "/Users/fatehmmmdli/Desktop/asp.net-front/aspFront/aspFront.csproj",
         "packagesPath": "/Users/fatehmmmdli/.nuget/packages/",
-        "outputPath": "/Users/fatehmmmdli/Projects/aspFront/aspFront/obj/",
+        "outputPath": "/Users/fatehmmmdli/Desktop/asp.net-front/aspFront/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/fatehmmmdli/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

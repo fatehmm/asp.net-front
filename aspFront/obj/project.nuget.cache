@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "UYneCF5BbbZkcyzPZxe2aRSe0s7pYA+rMEQ7dOdqKDRD7cGIUd06RIO54k0gYOD7BqGcCf9vp9bsMajx7/LCWA==",
+  "dgSpecHash": "mSbYjePEoZqJjJT1q78d45Qt444G1cxaYpEZh43yZg18HMAo0vhKulV68sl/xayj8hFqAMzCTduZNivi6qm2rA==",
   "success": true,
-  "projectFilePath": "/Users/fatehmmmdli/Projects/aspFront/aspFront/aspFront.csproj",
+  "projectFilePath": "/Users/fatehmmmdli/Desktop/asp.net-front/aspFront/aspFront.csproj",
   "expectedPackageFiles": [
+    "/Users/fatehmmmdli/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/fatehmmmdli/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
     "/Users/fatehmmmdli/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.25/microsoft.netcore.app.host.osx-x64.3.1.25.nupkg.sha512",
     "/Users/fatehmmmdli/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
